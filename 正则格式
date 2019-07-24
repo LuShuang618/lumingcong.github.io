@@ -1,0 +1,10 @@
+import re
+text = "Hi,ded"
+result = re.findall("\.*?[Hh]i",text)
+if result:
+    print(result)
+else:
+    print('not match')
+    
+    
+    
